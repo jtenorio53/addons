@@ -1,0 +1,5 @@
+<odoo>
+    <record model="res.groups" id="group_confirm_sale_price">
+        <field name="name">Confirm Product Sale Price</field>
+    </record>
+</odoo>

@@ -1,0 +1,17 @@
+<odoo>
+     <record id="product_product_price_view_form" model="ir.ui.view">
+            <field name="name">product.product.price.view.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='default_code']" position="after">
+                    <field name="min_price_limit"/>
+                </xpath>
+
+                <xpath expr="//field[@name='min_price_limit']" position="after">
+                    <field name="max_price_limit"/>
+                </xpath>
+
+            </field>
+        </record>
+</odoo>

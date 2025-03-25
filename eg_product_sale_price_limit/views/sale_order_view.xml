@@ -1,0 +1,17 @@
+<odoo>
+    <record id="sale_order_product_price_view" model="ir.ui.view">
+        <field name="name">sale.order.product.price.view</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree/field[@name='price_unit']" position="before">
+                <field name="confirm_order" invisible="1"/>
+                <field name="min_price_limit"/>
+                <field name="max_price_limit"/>
+            </xpath>
+            <xpath expr="//notebook/page[1]/field/tree" position="attributes">
+                <attribute name="decoration-danger">confirm_order == True</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
