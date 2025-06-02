@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_cancel_wizard_user,sale.order.cancel.wizard.user,model_sale_order_cancel_wizard,base.group_user,1,0,1,0
+access_sale_order_cancel_wizard_admin,sale.order.cancel.wizard.admin,model_sale_order_cancel_wizard,base.group_system,1,1,1,1
+access_sale_order_user,sale.order.user,model_sale_order,base.group_user,1,1,1,0
+access_sale_order_admin,sale.order.admin,model_sale_order,base.group_system,1,1,1,1
+access_cancel_sales_dashboard_user,cancel.sales.dashboard.user,model_cancel_sales_dashboard,base.group_user,0,0,0,0
+access_cancel_sales_dashboard_admin,cancel.sales.dashboard.admin,model_cancel_sales_dashboard,base.group_system,1,1,1,1
+access_sale_order_confirm_delete_wizard,sale.order.confirm.delete.wizard,model_sale_order_confirm_delete_wizard,base.group_user,1,1,1,0
+access_cancel_sales_main_admin,cancel.sales.main.admin,model_cancel_sales_main,base.group_system,1,1,1,1
+access_cancel_sales_main_user,cancel.sales.main.user,model_cancel_sales_main,base.group_user,1,0,0,0
+access_cancel_sales_data_history_user,cancel.sales.data.history.user,model_cancel_sales_data_history,base.group_user,0,1,1,0
+access_cancel_sales_data_history_admin,cancel.sales.data.history.admin,model_cancel_sales_data_history,base.group_system,1,1,1,1
+access_res_config_settings_admin,res.config.settings.admin,model_res_config_settings,base.group_system,1,1,1,1
+access_cancel_sales_date_range_wizard,cancel.sales.date.range.wizard,model_cancel_sales_date_range_wizard,base.group_user,1,1,1,1

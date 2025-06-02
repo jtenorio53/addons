@@ -1,0 +1,19 @@
+<odoo>
+    <record id="view_sale_order_form_inherit_cancel_reset_delete" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit.cancel.dropdown</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header/button[@name='action_cancel']" position="replace">
+            <button name="open_cancel_wizard" type="object" string="Cancel" class="oe_highlight"
+                attrs="{'invisible': [('state', '=', 'cancel')]}"/>
+ 
+            </xpath>
+            <xpath expr="//sheet" position="inside">
+                <group>
+                    <field name="cancel_associated_records"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

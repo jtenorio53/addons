@@ -1,0 +1,25 @@
+<odoo>
+    <record id="action_cancel_sales_main" model="ir.actions.act_window">
+        <field name="name">Cancel Sales</field>
+        <field name="res_model">cancel.sales.main</field>
+        <field name="view_mode">kanban,tree</field>
+        <field name="target">current</field>
+    </record>
+
+    <record id="view_cancel_sales_main_kanban" model="ir.ui.view">
+        <field name="name">cancel.sales.main.kanban</field>
+        <field name="model">cancel.sales.main</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global_click">
+                            <field name="name"/>
+                            <field name="description"/>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+</odoo>

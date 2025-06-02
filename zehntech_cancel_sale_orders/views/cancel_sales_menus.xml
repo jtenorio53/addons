@@ -1,0 +1,25 @@
+<odoo>
+    <!-- Menu: Cancel Sales Root and Submenus -->
+    <menuitem id="menu_cancel_sales_root"
+              name="Cancel Sales"
+              sequence="30"/>
+
+    <record id="action_cancel_sales_dashboard" model="ir.actions.act_window">
+        <field name="name">Cancel Sales Dashboard</field>
+        <field name="res_model">cancel.sales.dashboard</field>
+        <field name="view_mode">kanban</field>
+        <field name="target">current</field>
+    </record>
+
+    <menuitem id="menu_cancel_sales_dashboard"
+              name="Dashboard"
+              parent="menu_cancel_sales_root"
+              action="action_cancel_sales_dashboard"
+              sequence="10"/>
+
+    <menuitem id="menu_cancel_sales_history"
+              name="Data History"
+              parent="menu_cancel_sales_root"
+          action="action_cancel_sales_history"
+              sequence="20"/>
+</odoo>

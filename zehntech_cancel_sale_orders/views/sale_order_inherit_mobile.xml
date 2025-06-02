@@ -1,0 +1,24 @@
+<odoo>
+  <record id="view_sale_order_form_inherit_mobile" model="ir.ui.view">
+    <field name="name">sale.order.form.inherit.mobile</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale.view_order_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//sheet" position="inside">
+        <!-- New container for mobile only -->
+        <div class="my_mobile_stat_buttons">
+          <!-- Duplicate lines from .o_form_buttonbox -->
+          <button name="action_view_invoice" type="object" class="oe_stat_button" icon="fa-pencil-square-o">
+            <field name="invoice_count" widget="statinfo" string="Invoices"/>
+          </button>
+          <button name="action_preview_sale_order" type="object" class="oe_stat_button" icon="fa-globe icon">
+            <div class="o_field_widget o_stat_info">
+              <span class="o_stat_text">Customer</span>
+              <span class="o_stat_text">Preview</span>
+            </div>
+          </button>
+        </div>
+      </xpath>
+    </field>
+  </record>
+</odoo>

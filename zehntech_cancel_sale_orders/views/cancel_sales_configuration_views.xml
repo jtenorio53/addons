@@ -1,0 +1,37 @@
+<odoo>
+    <record id="action_cancel_sales_configuration" model="ir.actions.act_window">
+        <field name="name">Cancel Sales Configuration</field>
+        <field name="res_model">cancel.sales.configuration</field>
+        <field name="view_mode">form</field>
+        <field name="target">current</field>
+    </record>
+
+    <record id="view_cancel_sales_configuration_form" model="ir.ui.view">
+        <field name="name">cancel.sales.configuration.form</field>
+        <field name="model">cancel.sales.configuration</field>
+        <field name="arch" type="xml">
+            <form string="Cancel Sales Configuration">
+                <sheet>
+                    <group>
+                        <field name="enable_feature"/>
+                    </group>
+                    <footer>
+                        <button name="toggle_feature"
+                                type="object"
+                                string="Toggle Enable Feature"
+                                class="btn-primary"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_cancel_sales_configuration" model="ir.actions.act_window">
+        <field name="name">Cancel Sales Configuration</field>
+        <field name="res_model">cancel.sales.configuration</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_cancel_sales_configuration_form"/>
+        <field name="target">current</field>
+    </record>
+
+</odoo>

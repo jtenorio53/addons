@@ -1,0 +1,52 @@
+{
+    'name': 'Cancel Sale Orders',
+    'version': '16.0.1.0.0',
+    'category': 'Sales',
+    'summary': """The Sales Order Cancel Management Odoo app enhances Odoo's sale order functionality by offering flexible cancellation options including independent cancellation, resetting to draft for modifications, and permanent deletion with related record handling. It supports bulk cancellations from the sales order list and allows optional cancellation of associated deliveries and invoices.""",
+    'description': """The Sale Order Cancel Management module enhances the functionality of sale orders by providing users with flexible cancellation options. It allows users to cancel sale orders without affecting delivery or invoice statuses, reset sale orders and their associated delivery and invoice records to draft for further modifications, and permanently delete sale orders along with all related records. For efficient management, users can also perform bulk cancellations directly from the sale order tree view. Additionally, the module offers the option to cancel associated delivery and invoice records during the cancellation process.""",
+    'author': "Zehntech Technologies Inc.",
+    'company': "Zehntech Technologies Inc.",
+    'maintainer': "Zehntech Technologies Inc.",
+    'contributor': "Zehntech Technologies Inc.",
+    'website': "https://www.zehntech.com/",
+    'support': "odoo-support@zehntech.com",
+    'depends': ['sale_management', 'stock', 'account','mail','web','base',],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/sale_order_action.xml',
+        'data/server_actions.xml',
+        'data/ir_model_data.xml',
+        'views/sale_order_cancel_wizard_view.xml',
+        'views/sale_order_views.xml',
+        'views/cancel_sales_main_views.xml',         
+        'views/cancel_sales_dashboard_views.xml',
+        'views/cancel_sales_dashboard_search.xml',
+        'views/sale_order_tree_no_bulk_actions.xml',    
+        'views/cancel_sales_actions.xml',            
+        # 'views/sale_order_inherit_mobile.xml',
+        'views/cancel_sales_data_history_views.xml',
+        'views/cancel_sales_dashboard_template.xml',
+        'views/cancel_sales_menus.xml',
+        'views/res_config_settings_views.xml',
+        'views/cancel_sales_date_range_wizard_view.xml'
+    ],
+    'assets': {
+        'web.assets_backend': [
+            # 'zehntech_cancel_sale_orders/static/src/js/hide_desktop_action.js',
+
+        ],
+    },
+    'i18n': [
+        'i18n/de.po',
+        'i18n/es.po',
+        'i18n/fr.po',
+        'i18n/ja_JP.po'
+    ],
+    'images': ['static/description/banner.png'],
+    'license': "OPL-1",
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+    "price": 00,
+    "currency": "USD",
+}

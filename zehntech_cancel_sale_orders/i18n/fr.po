@@ -1,0 +1,926 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* zehntech_cancel_sale_orders
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-27 07:53+0000\n"
+"PO-Revision-Date: 2025-03-27 07:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "<span>CANCELLED</span>"
+msgstr "<span>ANNULÉ</span>"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "<span>Custom Date Range</span>"
+msgstr "<span>Plage de dates personnalisée</span>"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "<span>QUOTATION</span>"
+msgstr "<span>CITATION</span>"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "<span>SALE ORDER</span>"
+msgstr "<span>COMMANDE DE VENTE</span>"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__action_type
+msgid "Action Type"
+msgstr "Type d'action"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__all_time
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "All Time"
+msgstr "Tout le temps"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#, python-format
+msgid "Already in Quotation"
+msgstr "Déjà en citation"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_date_range_wizard_form
+msgid "Apply"
+msgstr "Appliquer"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#, python-format
+msgid "Are you sure you want to permanently delete this Sale Order?"
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer de façon permanente cette commande de "
+"vente?"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__associated_data
+msgid "Associated Data"
+msgstr "Données associées"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.server,name:zehntech_cancel_sale_orders.action_bulk_cancel_only
+msgid "Bulk Cancel Only"
+msgstr "Annulation groupée uniquement"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.server,name:zehntech_cancel_sale_orders.action_bulk_cancel_and_delete
+msgid "Bulk Cancel and Delete"
+msgstr "Annulation et suppression en masse"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.server,name:zehntech_cancel_sale_orders.action_bulk_reset_to_draft
+msgid "Bulk Set to Quotation"
+msgstr "Réinitialisation en masse au brouillon"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "Bulk cancel actions are not allowed from the Dashboard."
+msgstr ""
+"Les actions d'annulation en vrac ne sont pas autorisées à partir du tableau "
+"de bord."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__action_type__cancel
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_form
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_date_range_wizard_form
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_cancel_wizard_form
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_confirm_delete_wizard_form
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_form_inherit_cancel_reset_delete
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order__cancel_associated_records
+msgid "Cancel Associated Records"
+msgstr "Annuler les enregistrements associés"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__sale_order_cancel_wizard__option__cancel_only
+#, python-format
+msgid "Cancel Only"
+msgstr "Annuler seulement"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__option
+msgid "Cancel Option"
+msgstr "Option d'annulation"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_cancel_wizard_form
+msgid "Cancel Sale Order"
+msgstr "Annuler la commande de vente"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.act_window,name:zehntech_cancel_sale_orders.action_cancel_sales_main
+#: model:ir.ui.menu,name:zehntech_cancel_sale_orders.menu_cancel_sales_root
+msgid "Cancel Sales"
+msgstr "Annuler les ventes"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_res_config_settings_cancel_sales
+msgid "Cancel Sales Configuration"
+msgstr "Annuler la configuration des ventes"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_cancel_sales_date_range_wizard
+msgid "Cancel Sales Custom Date Range Wizard"
+msgstr "Assistant Annuler la plage de dates personnalisée des ventes"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.act_window,name:zehntech_cancel_sale_orders.action_cancel_sales_dashboard
+msgid "Cancel Sales Dashboard"
+msgstr "Annuler le tableau de bord des ventes"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_cancel_sales_data_history
+msgid "Cancel Sales Data History"
+msgstr "Annuler l'historique des données de vente"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_cancel_sales_main
+msgid "Cancel Sales Main Page"
+msgstr "Annuler les ventes Page principale"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.CancelSalesDashboardCardTemplate
+msgid "Cancel Sales Overview"
+msgstr "Annuler les ventes Aperçu"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__sale_order_cancel_wizard__option__cancel_and_delete
+#, python-format
+msgid "Cancel and Delete"
+msgstr "Annuler et supprimer"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__sale_order_cancel_wizard__option__reset_to_draft
+#, python-format
+msgid "Cancel and Reset to Quotation State"
+msgstr "Annuler et réinitialiser au brouillon"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,help:zehntech_cancel_sale_orders.field_sale_order__cancel_associated_records
+msgid ""
+"Cancel associated delivery orders and invoices when canceling the sale "
+"order."
+msgstr ""
+"Annuler les bons de livraison et les factures associés lors de l'annulation "
+"de la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid ""
+"Cancel functionality is globally disabled for regular users. Please contact "
+"your administrator."
+msgstr ""
+"La fonctionnalité d'annulation est globalement désactivée pour les "
+"utilisateurs réguliers. Veuillez contacter votre administrateur."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__state__cancelled
+#, python-format
+msgid "Cancelled"
+msgstr "ANNULÉ"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__cancelled_color
+msgid "Cancelled Color"
+msgstr "Couleur annulée"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__cancelled_count
+msgid "Cancelled Count"
+msgstr "Compte annulé"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Cancelled Sale Orders"
+msgstr "Commandes de vente annulées"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__color
+msgid "Card Color"
+msgstr "Couleur"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__icon_image
+msgid "Dashboard Image"
+msgstr "Image du tableau de bord"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_date_range_wizard_form
+msgid "Clear Range"
+msgstr "Effacer la plage"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.CancelSalesDashboardCardTemplate
+msgid ""
+"Click the actions in the dashboard to view detailed records for each type of"
+" cancellation."
+msgstr ""
+"Cliquez sur les actions dans le tableau de bord pour afficher les "
+"enregistrements détaillés pour chaque type d'annulation."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__sale_bar_html
+msgid "Colored Bar Graph"
+msgstr "Graphique à barres colorées"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_cancel_wizard_form
+msgid "Confirm"
+msgstr "Confirmer"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_confirm_delete_wizard_form
+#, python-format
+msgid "Confirm Deletion"
+msgstr "Confirmer la suppression"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_confirm_delete_wizard.py:0
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__confirmation_message
+#, python-format
+msgid "Confirmation Message"
+msgstr "Message de confirmation"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Confirmed Sale Orders"
+msgstr "Commandes de vente confirmées"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__create_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__create_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__create_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__create_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__create_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__create_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__create_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__create_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__create_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__create_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__custom
+msgid "Custom"
+msgstr "Coutume"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.act_window,name:zehntech_cancel_sale_orders.action_cancel_sales_date_range_wizard
+msgid "Custom Date Range"
+msgstr "Plage de dates personnalisée"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__dashboard_id
+#: model:ir.ui.menu,name:zehntech_cancel_sale_orders.menu_cancel_sales_dashboard
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.act_window,name:zehntech_cancel_sale_orders.action_cancel_sales_history
+#: model:ir.actions.act_window,name:zehntech_cancel_sale_orders.action_data_history
+#: model:ir.ui.menu,name:zehntech_cancel_sale_orders.menu_cancel_sales_history
+msgid "Data History"
+msgstr "Historique des données"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,help:zehntech_cancel_sale_orders.field_sale_order__date_only
+msgid "Date part of the order date (converted to the user's local time)."
+msgstr ""
+"Date faisant partie de la date de commande (convertie en heure locale de "
+"l'utilisateur)."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__action_type__delete
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_confirm_delete_wizard_form
+msgid "Delete"
+msgstr "Supprimer"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__state__archived
+msgid "Deleted"
+msgstr "Supprimé"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "Delivery order %s is already done and cannot be canceled."
+msgstr ""
+"La commande de livraison% s est déjà terminée et ne peut pas être annulée."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "Delivery order %s is already done and cannot be reset to draft."
+msgstr ""
+"La commande de livraison% s est déjà terminée et ne peut pas être "
+"réinitialisée pour rédiger."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__description
+msgid "Description"
+msgstr "Description"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__display_name
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__display_name
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__display_name
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__display_name
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__display_name
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_form
+msgid "Edit Global Dashboard Image"
+msgstr "Modifier l'image du tableau de bord global"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Edit Global Dashboard Image"
+msgstr "Modifier l'image du tableau de bord global"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "Edit Image"
+msgstr "Modifier l'image"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_res_config_settings_cancel_sales
+msgid "Enable Cancel Sales"
+msgstr "Activer l'annulation des ventes"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_res_config_settings__enable_feature
+msgid "Enable Cancel Sales for Users"
+msgstr "Activer l'annulation des ventes pour les utilisateurs"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,help:zehntech_cancel_sale_orders.field_res_config_settings__enable_feature
+msgid "Enable or disable cancel functionalities for non-admin users."
+msgstr ""
+"Activer ou désactiver Annuler les fonctionnalités pour les utilisateurs non-"
+"trajets."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__date_end
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__end_date
+msgid "End Date"
+msgstr "Date de fin"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "Global Aggregated Data"
+msgstr "Données globales agrégées"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_kanban
+msgid "Global Icon"
+msgstr "Icône mondiale"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_data_history_search
+msgid "Group By"
+msgstr "Grouper par"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__id
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__id
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__id
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__id
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__id
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__id
+msgid "ID"
+msgstr "IDENTIFIANT"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "Invoice %s is posted/paid and was not canceled."
+msgstr "La facture %s est enregistrée/payée et n'a pas été annulée."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "Invoice %s is posted/paid and was not reset to draft."
+msgstr "La facture %s est comptabilisée/payée et n'a pas été réinitialisée au statut de brouillon."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard____last_update
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history____last_update
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard____last_update
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main____last_update
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard____last_update
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__write_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__write_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__write_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__write_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__write_uid
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__write_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__write_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__write_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__write_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_cancel_wizard__write_date
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order_confirm_delete_wizard__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__model
+msgid "Model"
+msgstr "Modèle"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_main__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#, python-format
+msgid "Only administrators can restore data history."
+msgstr "Seuls les administrateurs peuvent restaurer l'historique des données."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#, python-format
+msgid "Only deleted records can be restored."
+msgstr "Seuls les enregistrements supprimés peuvent être restaurés."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_configuration.py:0
+#, python-format
+msgid "Only one Cancel Sales Configuration record can exist!"
+msgstr "Un seul enregistrement de configuration des ventes peut exister!"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_sale_order__date_only
+msgid "Order Date (Date Only)"
+msgstr "Date de commande (date uniquement)"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__user_id
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_data_history_search
+msgid "Performed By"
+msgstr "Interprété par"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,help:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__time_range
+msgid "Predefined date filter for the dashboard."
+msgstr "Filtre de date prédéfini pour le tableau de bord."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Quotation"
+msgstr "Citation"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__quotation_color
+msgid "Quotation Color"
+msgstr "Couleur du devis"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__draft_count
+msgid "Quotation Count"
+msgstr "Nombre de citations"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Quotation Sale Orders"
+msgstr "Commandes de vente de citations"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__record_id_int
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__record_id
+msgid "Record ID"
+msgstr "ID d'enregistrement"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__name
+msgid "Record Name"
+msgstr "Nom de l'enregistrement"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__action_type__reset_to_draft
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__state__reset_to_draft
+msgid "Reset to Draft"
+msgstr "Réinitialiser au brouillon"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.server,name:zehntech_cancel_sale_orders.action_restore_selected_data_history
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_data_history_tree
+msgid "Restore Selected"
+msgstr "Restaurer la sélection"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_data_history__state__restored
+msgid "Restored"
+msgstr "Restauré"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_sale_order_cancel_wizard
+msgid "Sale Order Cancel Wizard"
+msgstr "Assistant d'annulation de commande de vente"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_sale_order_confirm_delete_wizard
+msgid "Sale Order Confirm Delete Wizard"
+msgstr "Assistant de suppression de confirmation de commande de vente"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_sale_order_tree_no_bulk_actions
+msgid "Sale Orders"
+msgstr "Commandes de vente"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__sales_kanban_bar_chart
+msgid "Sales Bar Chart"
+msgstr "Graphique à barres des ventes"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_sale_order
+#, python-format
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__sales_order_color
+msgid "Sales Order Color"
+msgstr "Couleur de la commande client"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__confirmed_count
+msgid "Sales Order Count"
+msgstr "Nombre de commandes de vente"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Sales Order Status Overview"
+msgstr "Présentation de l'état de la commande commerciale"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_form
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_data_history_search
+msgid "Search Data History"
+msgstr ""
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "Search Sales Dashboard"
+msgstr "Rechercher dans le tableau de bord des ventes"
+
+#. module: zehntech_cancel_sale_orders
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_date_range_wizard_form
+msgid "Select Custom Date Range"
+msgstr "Sélectionnez une plage de dates personnalisée"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,help:zehntech_cancel_sale_orders.field_cancel_sales_data_history__associated_data
+msgid "Serialized data for related fields"
+msgstr "Données sérialisées pour les champs associés"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Set Custom Date Range"
+msgstr "Définir une plage de dates personnalisée"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__date_start
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_date_range_wizard__start_date
+msgid "Start Date"
+msgstr "Date de début"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_date_range_wizard.py:0
+#, python-format
+msgid "Start Date cannot be after End Date."
+msgstr "La date de début ne peut pas être postérieure à la date de fin."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__state
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_data_history_search
+msgid "State"
+msgstr "État"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_confirm_delete_wizard.py:0
+#, python-format
+msgid "Success"
+msgstr "Succès"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "The delivery order %s was deleted along with the sale order."
+msgstr ""
+"La commande de livraison% S a été supprimée avec la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid ""
+"The sale order and associated records have been reset to Quotation State."
+msgstr ""
+"La commande de vente et les enregistrements associés ont été réinitialisés à"
+" l'état de devis."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#, python-format
+msgid ""
+"The sale order and associated records have been reset to Quotation "
+"successfully."
+msgstr ""
+"La commande de vente et les enregistrements associés ont été réinitialisés "
+"en devis avec succès."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#, python-format
+msgid "The sale order and associated records have been restored successfully."
+msgstr ""
+"La commande de vente et les dossiers associés ont été restaurés avec succès."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "The sale order has been archived to data history."
+msgstr "L'ordonnance de vente a été archivée à l'historique des données."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "The sale order has been canceled."
+msgstr "La commande de vente a été annulée."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "The sale order has been marked as 'Cancelled'."
+msgstr "La commande de vente a été marquée comme «annulée»."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "The sale order has been restored from the archive."
+msgstr "La commande de vente a été restaurée à partir des archives."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#, python-format
+msgid "The sale order has been successfully cancelled."
+msgstr "La commande de vente a été annulée avec succès."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_confirm_delete_wizard.py:0
+#, python-format
+msgid "The sale order has been successfully deleted."
+msgstr "L'ordre de vente a été supprimé avec succès."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "The sale order is already active and does not need restoration."
+msgstr ""
+"La commande de vente est déjà active et n'a pas besoin de restauration."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_cancel_wizard.py:0
+#, python-format
+msgid "The sale order is already in Quotation state. No changes made."
+msgstr "L'ordonnance de vente est déjà en état de devis. Aucune modification "
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_confirm_delete_wizard.py:0
+#, python-format
+msgid "The sale order no longer exists."
+msgstr "La commande de vente n'existe plus."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#, python-format
+msgid "The sale order record could not be found or is already active."
+msgstr ""
+"Le dossier de commande de vente n'a pas pu être trouvé ou est déjà actif."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__this_month
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "This Month"
+msgstr "Ce mois-ci"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__this_quarter
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "This Quarter"
+msgstr "Ce trimestre"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__this_week
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "This Week"
+msgstr "Cette semaine"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__this_year
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "This Year"
+msgstr "Cette année"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#, python-format
+msgid "This delivery order was restored along with the sale order."
+msgstr ""
+"Cette commande de livraison a été restaurée avec la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "This invoice was canceled along with the sale order."
+msgstr "Cette facture a été annulée avec la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_data_history.py:0
+#, python-format
+msgid "This invoice was restored along with the sale order."
+msgstr "Cette facture a été restaurée avec la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "This transfer was canceled along with the sale order."
+msgstr "Ce transfert a été annulé avec la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sales_order.py:0
+#, python-format
+msgid "This transfer was reset to draft along with the sale order."
+msgstr ""
+"Ce transfert a été réinitialisé pour rédiger avec la commande de vente."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__time_range
+msgid "Time Range"
+msgstr "Plage de temps"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_data_history__timestamp
+msgid "Timestamp"
+msgstr "Horodatage"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields.selection,name:zehntech_cancel_sale_orders.selection__cancel_sales_dashboard__time_range__today
+#: model_terms:ir.ui.view,arch_db:zehntech_cancel_sale_orders.view_cancel_sales_dashboard_search
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.actions.server,name:zehntech_cancel_sale_orders.action_toggle_cancel_access_group
+msgid "Toggle Cancel Access Group Membership"
+msgstr "Basculer Annuler l'accès à l'adhésion au groupe"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/cancel_sales_dashboard.py:0
+#, python-format
+msgid "Total Orders"
+msgstr "Commandes totales"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model.fields,help:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__icon_image
+msgid "Upload an image to use as the icon for the global dashboard card."
+msgstr ""
+"Téléchargez une image à utiliser comme icône pour la carte du tableau de "
+"bord global."
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_res_users
+#: model:ir.model.fields,field_description:zehntech_cancel_sale_orders.field_cancel_sales_dashboard__employee_id
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: zehntech_cancel_sale_orders
+#. odoo-python
+#: code:addons/zehntech_cancel_sale_orders/models/sale_order_confirm_delete_wizard.py:0
+#, python-format
+msgid "Warning"
+msgstr "Avertissement"
+
+#. module: zehntech_cancel_sale_orders
+#: model:ir.model,name:zehntech_cancel_sale_orders.model_cancel_sales_dashboard
+msgid "cancel.sales.dashboard"
+msgstr "annuler.les.ventes.tableau.de.bord"

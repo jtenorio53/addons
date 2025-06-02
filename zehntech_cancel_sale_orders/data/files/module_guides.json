@@ -1,0 +1,6 @@
+{
+    "module_name": "Cancel Sale Orders",
+    "user_guides": ["https://web.kopyst.com/sharedoc/t4xgdb"],
+    "admin_guides": ["https://web.kopyst.com/sharedoc/t4xgdb"],
+    "branch_name": "master"
+}

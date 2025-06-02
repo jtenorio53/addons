@@ -1,0 +1,39 @@
+<odoo>
+    <!-- First Wizard: Cancel Order Options -->
+    <record id="view_sale_order_cancel_wizard_form" model="ir.ui.view">
+        <field name="name">sale.order.cancel.wizard.form</field>
+        <field name="model">sale.order.cancel.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Cancel Sale Order">
+                <sheet>
+                    <group>
+                        <field name="option" widget="radio"/>
+                    </group>
+                    <footer>
+                        <button string="Confirm" type="object" name="confirm_cancel_action" class="btn-primary"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Second Wizard: Confirm Deletion -->
+    <record id="view_sale_order_confirm_delete_wizard_form" model="ir.ui.view">
+        <field name="name">sale.order.confirm.delete.wizard.form</field>
+        <field name="model">sale.order.confirm.delete.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Confirm Deletion">
+                <sheet>
+                    <group>
+                        <field name="confirmation_message" nolabel="1" style="white-space: nowrap;"/>
+                    </group>
+                    <footer>
+                        <button name="confirm_delete_action" type="object" string="Delete" class="btn-danger"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,16 @@
+<odoo>
+  <!-- Minimal Tree View for Sale Orders -->
+  <record id="view_sale_order_tree_no_bulk_actions" model="ir.ui.view">
+    <field name="name">sale.order.tree.no.bulk.actions</field>
+    <field name="model">sale.order</field>
+    <field name="arch" type="xml">
+      <tree string="Sale Orders" create="false" edit="false">
+        <field name="name"/>
+        <field name="partner_id"/>
+        <field name="date_order"/>
+        <field name="state"/>
+        <field name="amount_total"/>
+      </tree>
+    </field>
+  </record>
+</odoo>

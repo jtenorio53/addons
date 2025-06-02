@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+@media (max-width: 767px) {
+    /* Show your mobile stat buttons, hide the original top box */
+    .my_mobile_stat_buttons {
+        display: block !important;
+        /* Add the vertical space you want here: */
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+    .o_form_buttonbox.oe_button_box.position-relative.text-end.o_full {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Hide the mobile container on desktop, show the original top box */
+    .my_mobile_stat_buttons {
+        display: none !important;
+    }
+    .o_form_buttonbox.oe_button_box.position-relative.text-end.o_full {
+        display: flex !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    /* Hide all states except the active one in the status bar */
+    .o_statusbar_status .badge:not(.o_state_active) {
+      display: none !important;
+    }
+  }  
+
+@media (max-width: 767px) {
+    /* Force the list table to scroll horizontally on narrow screens */
+    .o_list_view table.o_list_table {
+        display: block !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+    }
+    /* Give columns a minimum width so they're readable */
+    .o_list_view table.o_list_table th,
+    .o_list_view table.o_list_table td {
+        min-width: 120px; /* adjust as needed */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Make wizard modals fill most of the screen on phones */
+    .o_form_view .modal-dialog {
+        width: 95% !important;
+        margin: auto !important;
+    }
+    /* Reduce form padding inside wizard sheets */
+    .o_form_view .o_form_sheet {
+        padding: 10px !important;
+    }
+    /* Make wizard buttons full width for easy tapping */
+    .o_form_view .o_form_buttons_view button {
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Hide the "Restore Selected" header button on narrow screens */
+    .o_list_view thead button.btn-primary {
+        display: none !important;
+    }
+}
+@media (max-width: 767px) {
+    /* Force selection column to appear */
+    table.o_list_view thead tr th.o_list_record_selector,
+    table.o_list_view tbody tr td.o_list_record_selector {
+        display: table-cell !important;
+        width: auto !important;
+    }
+}
+/* -- General styles -- */
+/* Make images responsive in general */
+img, .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Base style for checkboxes to force their appearance on iOS Safari and others */
+table.o_list_view input[type="checkbox"] {
+    -webkit-appearance: checkbox !important; /* iOS Safari fix */
+    appearance: checkbox !important;         /* Other browsers */
+    width: 18px;  /* Default size for easier tapping */
+    height: 18px;
+}
+
+/* -- Mobile Adjustments (for devices with width 767px or less) -- */
+@media (max-width: 767px) {
+    /* Adjust kanban images and any fluid images */
+    .o_kanban_image,
+    .img-fluid {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+
+    /* Dashboard card adjustments */
+    .o_dashboard_card {
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    /* Responsive buttons */
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    
+    /* Increase tap area for selection checkboxes */
+    table.o_list_view input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* Form view adjustments */
+    .o_form_sheet {
+        padding: 15px;
+    }
+    
+    .o_field_widget {
+        font-size: 14px;
+    }
+}
