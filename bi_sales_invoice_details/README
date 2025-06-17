@@ -1,0 +1,6 @@
+----> 16.0.0.1
+
+----> Migrate bi_sales_invoice_details in v15 to v16.
+
+Date:- 15/03/2024 
+Fixed :-Redundant default on sale.order.currency_id
