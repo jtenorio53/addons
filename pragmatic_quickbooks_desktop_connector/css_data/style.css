@@ -1,0 +1,19 @@
+button.cmpny_btn {
+  margin-left: 20px;
+}
+
+button.btn.btn-primary {
+  white-space: nowrap;
+}
+
+.btn_custom_import_size {
+  width: 270px !important;
+  text-align: start !important;
+  justify-content: flex-start;
+}
+
+.btn_custom_export_size {
+  width: 240px !important;
+  text-align: start !important;
+  justify-content: flex-start;
+}
